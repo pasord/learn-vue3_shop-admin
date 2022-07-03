@@ -3,6 +3,7 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
 import typescriptSupport from './demos/typescriptSupport/index.vue'
+import scriptSetup from './demos/scriptSetup/index.vue'
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import typescriptSupport from './demos/typescriptSupport/index.vue'
     msg="Hello I am One"
     :num="2"
   />
+  <scriptSetup msg="Hello Setup" />
 </template>
 
 <style>
