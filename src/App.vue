@@ -4,6 +4,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import typescriptSupport from './demos/typescriptSupport/index.vue'
 import scriptSetup from './demos/scriptSetup/index.vue'
+import Tsx from './demos/tsx/index.vue'
 </script>
 
 <template>
@@ -17,6 +18,7 @@ import scriptSetup from './demos/scriptSetup/index.vue'
     :num="2"
   />
   <scriptSetup msg="Hello Setup" />
+  <Tsx />
 </template>
 
 <style>
