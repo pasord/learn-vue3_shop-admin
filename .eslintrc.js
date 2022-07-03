@@ -18,5 +18,7 @@ module.exports = {
   ],
   // 自定义规则
   rules: {
+    // 关闭 Require component names to be always multi-word
+    'vue/multi-word-component-names': 'off'
   }
 }
