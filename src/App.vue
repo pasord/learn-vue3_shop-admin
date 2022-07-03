@@ -2,7 +2,7 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
-import One from './demos/one/index.vue'
+import typescriptSupport from './demos/typescriptSupport/index.vue'
 </script>
 
 <template>
@@ -11,7 +11,10 @@ import One from './demos/one/index.vue'
     src="./assets/logo.png"
   >
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
-  <One msg="Hello I am One" />
+  <typescriptSupport
+    msg="Hello I am One"
+    :num="2"
+  />
 </template>
 
 <style>
