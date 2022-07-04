@@ -17,5 +17,13 @@ export default defineConfig({
     alias: {
       '@': path.join(__dirname, 'src')
     }
+  },
+  css: {
+    // 为CSS预处理器注入全局: 执行语句
+    preprocessorOptions: {
+      scss: {
+        additionalData: '@import "@/styles/variables.scss";' // 是一条sass语句
+      }
+    }
   }
 })
