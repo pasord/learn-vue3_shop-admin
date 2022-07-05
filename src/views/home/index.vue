@@ -1,6 +1,9 @@
 <template>
   <div>
     home
+    <el-button type="primary">
+      hello
+    </el-button>
   </div>
 </template>
 
